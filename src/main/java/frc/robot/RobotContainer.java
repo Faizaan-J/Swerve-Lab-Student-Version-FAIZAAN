@@ -4,7 +4,7 @@
 
 package frc.robot;
 
-import frc.robot.Constants.OIConstants;
+import frc.robot.Constants.IOConstants;
 import frc.robot.commands.TeleopDrive;
 import frc.robot.subsystems.SwerveDrive;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -24,7 +24,7 @@ public class RobotContainer {
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
   private final CommandXboxController driverController = 
-    new CommandXboxController(OIConstants.DRIVER_CONTROLLER_PORT);
+    new CommandXboxController(IOConstants.DRIVER_CONTROLLER_PORT);
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {

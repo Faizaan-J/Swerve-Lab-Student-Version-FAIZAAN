@@ -58,7 +58,7 @@ public final class Constants {
     public static final double TURN_KD = 0.1;   // TODO: TUNE THIS!
   }
   
-  public static final class OIConstants {
+  public static final class IOConstants {
     public static final int DRIVER_CONTROLLER_PORT = 0;
     
     public static final int LEFT_X_AXIS = 0;
